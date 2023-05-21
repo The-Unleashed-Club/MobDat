@@ -9,6 +9,7 @@ import Welcome_screen from '../Screens/welcome';
 import TableCreationScreen from '../Screens/create-table';
 import TableListScreen from '../Screens/table-list';
 import TableDetailsScreen from '../Screens/tableDetails';
+import DataChart from '../Screens/chart';
 
 
 
@@ -25,6 +26,7 @@ export default function Home() {
         <Stack.Screen name="tableCreationScreen" component={TableCreationScreen} />
         <Stack.Screen name="tableListScreen" component={TableListScreen} />
         <Stack.Screen name="tableDetailsScreen" component={TableDetailsScreen} />
+        <Stack.Screen name="dataChart" component={DataChart} />
 
       </Stack.Navigator>
     </NavigationContainer>

@@ -143,6 +143,9 @@ const TableDetailsScreen = ({ route }) => {
       <View style={styles.button}>
         <Button_1 title="Delete Table" onPress={handleDeleteTable} />
       </View>
+      {/* <View style={styles.button}>
+        <Button_1 title="Chart"  onPress={ () => navigation.navigate("dataChart" , { rows } )}/>
+      </View> */}
      
     </View>
   );
