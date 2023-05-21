@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const cors = require("cors");
 const bodyParser = require("body-parser");
+const tableRoutes = require("./routes/tableRoutes");
 
 const app = express();
 dotenv.config();
@@ -16,17 +17,9 @@ app.get("/", (req, res) => {
   res.json({ message: "Backend WORKING" });
 });
 
-app.get("/api/user", (req, res) => {
-  // Handle GET request for user data
-  // Implement your logic here
-  res.json({ message: "User data endpoint" });
-});
+// Connect routes
+app.use("/tables", tableRoutes);
 
-app.post("/api/user", (req, res) => {
-  // Handle POST request for creating a user
-  // Implement your logic here
-  res.json({ message: "User created" });
-});
 
 // Connect to MongoDB
 mongoose.set("strictQuery", false);
@@ -48,6 +41,21 @@ db.once("open", () => {
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // const express = require('express');
 // const app = express();
