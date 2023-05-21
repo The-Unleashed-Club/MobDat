@@ -1,6 +1,6 @@
-# Table Management App
+# MobDat
 
-The Table Management App is a web application built with Node.js that allows users to create and manage tables dynamically. It provides a user-friendly interface to create tables, add rows and columns, view table details, and delete tables. The app is designed to simplify data management and organization for various use cases, such as data entry, spreadsheet-like functionality, and more.
+This is a Table Management App is a mobile application built with expo that allows users to create and manage tables dynamically. It provides a user-friendly interface to create tables, add rows and columns, view table details, and delete tables. The app is designed to simplify data management and organization for various use cases, such as data entry, spreadsheet-like functionality, and more.
 
 ## [Front-end](./Front-End//readme.md)
 
