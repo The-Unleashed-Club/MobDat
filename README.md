@@ -1,4 +1,4 @@
-# MobDat
+# [MobDat(Live)](https://expo.dev/@silenteyesoncode/mob-dat?serviceType=classic&distribution=expo-go)
 
 This is a Table Management App is a mobile application built with expo that allows users to create and manage tables dynamically. It provides a user-friendly interface to create tables, add rows and columns, view table details, and delete tables. The app is designed to simplify data management and organization for various use cases, such as data entry, spreadsheet-like functionality, and more.
 
@@ -24,6 +24,8 @@ The back-end of the Table Management App is built with Node.js and Express.js. I
 - Node.js
 - Express.js
 - JavaScript
+- mongoDB
+- Firebase
 
 
 ## Installation
